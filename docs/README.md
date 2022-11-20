@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 heroImage: /spider.png
 heroText: 我的主页
 tagline: My homepage

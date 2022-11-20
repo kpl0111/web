@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/vuepress-demo/',
+    base: '/vuepress/',
     title: 'Nefelibata',
     head: [ // 注入到当前页面的 HTML <head> 中的标签
       ['link', { rel: 'icon', href: '/avatar.png' }], // 增加一个自定义的 favicon(网页标签的图标)
@@ -12,7 +12,7 @@ module.exports = {
     themeConfig: {
       logo: '/avatar.png',  // 左上角logo
       nav:[ // 导航栏配置
-        {text: '首页', link: '/' },
+        {text: 'blog', link: 'https://kpl0111.github.io/blog' },
         {text: 'github', link: 'https://github.com/kpl0111' },
         {text: 'Home', link: 'https://kpl0111.github.io/'}      
       ],
