@@ -13,4 +13,6 @@
     "deploy": "bash deploy.sh"
   },
   "author": "",
-  "license
+  "license": "ISC",
+  "description": ""
+}
