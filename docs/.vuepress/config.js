@@ -11,7 +11,8 @@ module.exports = {
     },
     themeConfig: {
       logo: '/avatar.png',  // 左上角logo
-      nav:[ // 导航栏配置
+      nav:[ // 
+        {text: '首页', link: '/' },
         {text: 'blog', link: 'https://kpl0111.github.io/blog' },
         {text: 'github', link: 'https://github.com/kpl0111' },
         {text: 'Home', link: 'https://kpl0111.github.io/'}      
